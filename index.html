@@ -5,23 +5,42 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>First HTML project</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script src='main.js'></script>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+    
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="destaque-titulo">com um Front-end de qualidade!</strong></h1>
         <p class="apresentacao__conteudo__texto">Olá! Sou estudante do curso One Next Education da Oracle e esse é meu primeiro projeto HTML.</p>
         <div class="apresentacao__links">
-            <a class="apresentacao__links__links" href="https://duckduckgo.com" target="_blank">DuckDuckGo</a>
-            <a class="apresentacao__links__links" href="https://youtube.com" target="_blank">YouTube</a>
+            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes sociais</h2>
+            <a class="apresentacao__links__links" href="https://duckduckgo.com" target="_blank">
+                <img src="assets/github.png">
+                DuckDuckGo
+            </a>
+            <a class="apresentacao__links__links" href="https://youtube.com" target="_blank">
+                <img src="assets/instagram.png">
+                YouTube
+            </a>
+            <a class="apresentacao__links__links" href="https://bing.com" target="_blank">
+                <img src="assets/twitch.png">
+                Site
+            </a>
         </div>
     </section>
         <img src="cat.jpg" alt="Foto de um gato siamês com olho azul">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por HexDexDev.</p>
+    </footer>
 </body>
 </html> 
